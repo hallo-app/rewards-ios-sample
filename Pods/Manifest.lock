@@ -1,0 +1,28 @@
+PODS:
+  - Bagel (1.4.0):
+    - CocoaAsyncSocket
+  - CocoaAsyncSocket (7.6.4)
+
+DEPENDENCIES:
+  - Bagel (from `https://github.com/yagiz/Bagel`)
+
+SPEC REPOS:
+  trunk:
+    - CocoaAsyncSocket
+
+EXTERNAL SOURCES:
+  Bagel:
+    :git: https://github.com/yagiz/Bagel
+
+CHECKOUT OPTIONS:
+  Bagel:
+    :commit: 763aadbf6a099681a66e69522f902e33094f6a55
+    :git: https://github.com/yagiz/Bagel
+
+SPEC CHECKSUMS:
+  Bagel: c3fa6bcbd52db9ca976edbafd7638f0553ded101
+  CocoaAsyncSocket: 694058e7c0ed05a9e217d1b3c7ded962f4180845
+
+PODFILE CHECKSUM: 807a5503c3f142494061361d57c98f16b74f6be6
+
+COCOAPODS: 1.9.3

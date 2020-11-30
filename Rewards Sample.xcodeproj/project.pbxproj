@@ -1,0 +1,446 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 52;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		019F66292551DF6600441ED0 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 019F66282551DF6600441ED0 /* AppDelegate.swift */; };
+		019F662B2551DF6600441ED0 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 019F662A2551DF6600441ED0 /* SceneDelegate.swift */; };
+		019F662D2551DF6600441ED0 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 019F662C2551DF6600441ED0 /* ViewController.swift */; };
+		019F66302551DF6600441ED0 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 019F662E2551DF6600441ED0 /* Main.storyboard */; };
+		019F66322551DF6700441ED0 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 019F66312551DF6700441ED0 /* Assets.xcassets */; };
+		019F66352551DF6700441ED0 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 019F66332551DF6700441ED0 /* LaunchScreen.storyboard */; };
+		019F66482551E9F400441ED0 /* HalloRewardsLibrary in Frameworks */ = {isa = PBXBuildFile; productRef = 019F66472551E9F400441ED0 /* HalloRewardsLibrary */; };
+		5386D7812B5F04022CF31F2A /* Pods_Rewards_Sample.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2112F797DDE1436AB21C530E /* Pods_Rewards_Sample.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		011696E1255454B2002FA1B2 /* Rewards Sample-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "Rewards Sample-Bridging-Header.h"; sourceTree = "<group>"; };
+		019F66252551DF6600441ED0 /* Rewards Sample.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Rewards Sample.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		019F66282551DF6600441ED0 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		019F662A2551DF6600441ED0 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		019F662C2551DF6600441ED0 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		019F662F2551DF6600441ED0 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		019F66312551DF6700441ED0 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		019F66342551DF6700441ED0 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		019F66362551DF6700441ED0 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		019F663F2551E32A00441ED0 /* Hallo-Rewards-SDK */ = {isa = PBXFileReference; lastKnownFileType = folder; name = "Hallo-Rewards-SDK"; path = "../../Hallo-Rewards-SDK"; sourceTree = "<group>"; };
+		2112F797DDE1436AB21C530E /* Pods_Rewards_Sample.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Rewards_Sample.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		AA128CD619614C66F127B417 /* Pods-Rewards Sample.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Rewards Sample.release.xcconfig"; path = "Target Support Files/Pods-Rewards Sample/Pods-Rewards Sample.release.xcconfig"; sourceTree = "<group>"; };
+		AFC9FC83DA50E6042EDA12DD /* Pods-Rewards Sample.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Rewards Sample.debug.xcconfig"; path = "Target Support Files/Pods-Rewards Sample/Pods-Rewards Sample.debug.xcconfig"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		019F66222551DF6600441ED0 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				019F66482551E9F400441ED0 /* HalloRewardsLibrary in Frameworks */,
+				5386D7812B5F04022CF31F2A /* Pods_Rewards_Sample.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		019F661C2551DF6600441ED0 = {
+			isa = PBXGroup;
+			children = (
+				019F66272551DF6600441ED0 /* Rewards Sample */,
+				019F66262551DF6600441ED0 /* Products */,
+				019F66422551E39D00441ED0 /* Frameworks */,
+				EC26F22650D760B9ACFE0250 /* Pods */,
+			);
+			sourceTree = "<group>";
+		};
+		019F66262551DF6600441ED0 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				019F66252551DF6600441ED0 /* Rewards Sample.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		019F66272551DF6600441ED0 /* Rewards Sample */ = {
+			isa = PBXGroup;
+			children = (
+				019F66282551DF6600441ED0 /* AppDelegate.swift */,
+				019F662A2551DF6600441ED0 /* SceneDelegate.swift */,
+				019F662C2551DF6600441ED0 /* ViewController.swift */,
+				019F662E2551DF6600441ED0 /* Main.storyboard */,
+				019F66312551DF6700441ED0 /* Assets.xcassets */,
+				019F66332551DF6700441ED0 /* LaunchScreen.storyboard */,
+				019F66362551DF6700441ED0 /* Info.plist */,
+				019F663F2551E32A00441ED0 /* Hallo-Rewards-SDK */,
+				011696E1255454B2002FA1B2 /* Rewards Sample-Bridging-Header.h */,
+			);
+			path = "Rewards Sample";
+			sourceTree = "<group>";
+		};
+		019F66422551E39D00441ED0 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				2112F797DDE1436AB21C530E /* Pods_Rewards_Sample.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		EC26F22650D760B9ACFE0250 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				AFC9FC83DA50E6042EDA12DD /* Pods-Rewards Sample.debug.xcconfig */,
+				AA128CD619614C66F127B417 /* Pods-Rewards Sample.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		019F66242551DF6600441ED0 /* Rewards Sample */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 019F66392551DF6700441ED0 /* Build configuration list for PBXNativeTarget "Rewards Sample" */;
+			buildPhases = (
+				38B296CEBA968BF3394E1367 /* [CP] Check Pods Manifest.lock */,
+				019F66212551DF6600441ED0 /* Sources */,
+				019F66222551DF6600441ED0 /* Frameworks */,
+				019F66232551DF6600441ED0 /* Resources */,
+				845A8B442549CBDB530AB655 /* [CP] Embed Pods Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Rewards Sample";
+			packageProductDependencies = (
+				019F66472551E9F400441ED0 /* HalloRewardsLibrary */,
+			);
+			productName = "Rewards Sample";
+			productReference = 019F66252551DF6600441ED0 /* Rewards Sample.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		019F661D2551DF6600441ED0 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1210;
+				LastUpgradeCheck = 1210;
+				TargetAttributes = {
+					019F66242551DF6600441ED0 = {
+						CreatedOnToolsVersion = 12.1;
+						LastSwiftMigration = 1210;
+					};
+				};
+			};
+			buildConfigurationList = 019F66202551DF6600441ED0 /* Build configuration list for PBXProject "Rewards Sample" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 019F661C2551DF6600441ED0;
+			productRefGroup = 019F66262551DF6600441ED0 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				019F66242551DF6600441ED0 /* Rewards Sample */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		019F66232551DF6600441ED0 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				019F66352551DF6700441ED0 /* LaunchScreen.storyboard in Resources */,
+				019F66322551DF6700441ED0 /* Assets.xcassets in Resources */,
+				019F66302551DF6600441ED0 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		38B296CEBA968BF3394E1367 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-Rewards Sample-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		845A8B442549CBDB530AB655 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-Rewards Sample/Pods-Rewards Sample-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-Rewards Sample/Pods-Rewards Sample-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-Rewards Sample/Pods-Rewards Sample-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		019F66212551DF6600441ED0 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				019F662D2551DF6600441ED0 /* ViewController.swift in Sources */,
+				019F66292551DF6600441ED0 /* AppDelegate.swift in Sources */,
+				019F662B2551DF6600441ED0 /* SceneDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		019F662E2551DF6600441ED0 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				019F662F2551DF6600441ED0 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		019F66332551DF6700441ED0 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				019F66342551DF6700441ED0 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		019F66372551DF6700441ED0 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.1;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		019F66382551DF6700441ED0 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.1;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		019F663A2551DF6700441ED0 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = AFC9FC83DA50E6042EDA12DD /* Pods-Rewards Sample.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CLANG_ENABLE_MODULES = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				CODE_SIGN_STYLE = Manual;
+				CURRENT_PROJECT_VERSION = 8;
+				DEVELOPMENT_TEAM = AF3A97J442;
+				INFOPLIST_FILE = "Rewards Sample/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.hallo.ios.rewards-sample";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = Rewards_Sample_Dev;
+				SWIFT_OBJC_BRIDGING_HEADER = "Rewards Sample/Rewards Sample-Bridging-Header.h";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Debug;
+		};
+		019F663B2551DF6700441ED0 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = AA128CD619614C66F127B417 /* Pods-Rewards Sample.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CLANG_ENABLE_MODULES = YES;
+				CODE_SIGN_IDENTITY = "iPhone Distribution";
+				CODE_SIGN_STYLE = Manual;
+				CURRENT_PROJECT_VERSION = 8;
+				DEVELOPMENT_TEAM = AF3A97J442;
+				INFOPLIST_FILE = "Rewards Sample/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.hallo.ios.rewards-sample";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = Rewards_Sample_AppStore;
+				SWIFT_OBJC_BRIDGING_HEADER = "Rewards Sample/Rewards Sample-Bridging-Header.h";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		019F66202551DF6600441ED0 /* Build configuration list for PBXProject "Rewards Sample" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				019F66372551DF6700441ED0 /* Debug */,
+				019F66382551DF6700441ED0 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		019F66392551DF6700441ED0 /* Build configuration list for PBXNativeTarget "Rewards Sample" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				019F663A2551DF6700441ED0 /* Debug */,
+				019F663B2551DF6700441ED0 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		019F66472551E9F400441ED0 /* HalloRewardsLibrary */ = {
+			isa = XCSwiftPackageProductDependency;
+			productName = HalloRewardsLibrary;
+		};
+/* End XCSwiftPackageProductDependency section */
+	};
+	rootObject = 019F661D2551DF6600441ED0 /* Project object */;
+}
