@@ -6,6 +6,6 @@ target 'Rewards Sample' do
   use_frameworks!
 
   # Pods for Rewards Sample
-  pod 'Bagel', :git => 'https://github.com/yagiz/Bagel'
+  pod 'Bagel', '~>  1.4.0'
 
 end
