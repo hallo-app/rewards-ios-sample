@@ -28,6 +28,7 @@
 		019F66342551DF6700441ED0 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		019F66362551DF6700441ED0 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		019F663F2551E32A00441ED0 /* Hallo-Rewards-SDK */ = {isa = PBXFileReference; lastKnownFileType = folder; name = "Hallo-Rewards-SDK"; path = "../../Hallo-Rewards-SDK"; sourceTree = "<group>"; };
+		03565E3325AE2025009B53B0 /* rewards-lib-ios */ = {isa = PBXFileReference; lastKnownFileType = folder; name = "rewards-lib-ios"; path = "../../rewards-lib-ios"; sourceTree = "<group>"; };
 		2112F797DDE1436AB21C530E /* Pods_Rewards_Sample.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Rewards_Sample.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		AA128CD619614C66F127B417 /* Pods-Rewards Sample.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Rewards Sample.release.xcconfig"; path = "Target Support Files/Pods-Rewards Sample/Pods-Rewards Sample.release.xcconfig"; sourceTree = "<group>"; };
 		AFC9FC83DA50E6042EDA12DD /* Pods-Rewards Sample.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Rewards Sample.debug.xcconfig"; path = "Target Support Files/Pods-Rewards Sample/Pods-Rewards Sample.debug.xcconfig"; sourceTree = "<group>"; };
@@ -75,6 +76,7 @@
 				019F66332551DF6700441ED0 /* LaunchScreen.storyboard */,
 				019F66362551DF6700441ED0 /* Info.plist */,
 				019F663F2551E32A00441ED0 /* Hallo-Rewards-SDK */,
+				03565E3325AE2025009B53B0 /* rewards-lib-ios */,
 				011696E1255454B2002FA1B2 /* Rewards Sample-Bridging-Header.h */,
 			);
 			path = "Rewards Sample";
@@ -368,7 +370,7 @@
 				CLANG_ENABLE_MODULES = YES;
 				CODE_SIGN_IDENTITY = "iPhone Developer";
 				CODE_SIGN_STYLE = Manual;
-				CURRENT_PROJECT_VERSION = 8;
+				CURRENT_PROJECT_VERSION = 12;
 				DEVELOPMENT_TEAM = AF3A97J442;
 				INFOPLIST_FILE = "Rewards Sample/Info.plist";
 				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
@@ -395,7 +397,7 @@
 				CLANG_ENABLE_MODULES = YES;
 				CODE_SIGN_IDENTITY = "iPhone Distribution";
 				CODE_SIGN_STYLE = Manual;
-				CURRENT_PROJECT_VERSION = 8;
+				CURRENT_PROJECT_VERSION = 12;
 				DEVELOPMENT_TEAM = AF3A97J442;
 				INFOPLIST_FILE = "Rewards Sample/Info.plist";
 				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
