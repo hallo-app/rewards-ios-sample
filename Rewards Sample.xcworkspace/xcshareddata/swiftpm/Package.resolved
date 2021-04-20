@@ -2,6 +2,15 @@
   "object": {
     "pins": [
       {
+        "package": "HalloUtilsExtensions",
+        "repositoryURL": "https://75088744:b6ae2a2d0abd922eef15928f79cbd3cbe5a677c0@github.com/hallo-app/hallo-utils-extensions-ios",
+        "state": {
+          "branch": null,
+          "revision": "d89bda40974875bd8136a7083b23a9427327c3bf",
+          "version": "0.1.5"
+        }
+      },
+      {
         "package": "IQKeyboardManagerSwift",
         "repositoryURL": "https://github.com/hackiftekhar/IQKeyboardManager.git",
         "state": {
