@@ -15,9 +15,9 @@ class ViewController: UIViewController {
     override func viewDidLoad() {
         super.viewDidLoad()
 
-        var token = "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ0b2tlbiI6InRva2VuX3VuaWNyZWQiLCJu"
-        token += "YW1lIjoiVW5pY3JlZCBjbHViZSIsImNvb3AiOjEsImlhdCI6MTYwMTY2NDY5N30"
-        token += ".j7gjSXsVKaWKuCpFLsJf8h3j9AjD79sejEZlyQa_Ad8"
+        let token = """
+eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1bmlxdWVfaWQiOiJ2MTdlZWM5ZC1lYjBiLTQzMDYtYWQ3MS1hOTIxYWEyZGJ0MDkiLCJuYW1lIjoiVXNlciBUZXN0IFNleHRhIiwiYnJhbmNoIjoxLCJyZWdpb25hbCI6MiwiY2VudHJhbCI6MywiaWF0IjoxNjE2MTc1NjM0fQ.lBhP7jTDMC6yl-M1oBkQqUksiO6RiHr4uE8M5xGlX6g
+"""
 
         textView.text = token
         textView.backgroundColor = UIColor.lightGray.withAlphaComponent(0.5)
